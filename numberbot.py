@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 outputs = []
 crontable = []
 
-client_token = os.environ['SLACK_TOKEN_OMNI']
+client_token = os.environ['SLACK_TOKEN']
 sc = SlackClient(client_token)
 
 def is_fibonacci(n):
