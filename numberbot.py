@@ -1,9 +1,7 @@
 from slackclient import SlackClient
 import os
-
 import math
 from itertools import count, islice
-
 import logging
 
 
